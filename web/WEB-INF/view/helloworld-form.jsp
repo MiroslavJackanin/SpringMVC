@@ -11,7 +11,7 @@
         <title>Hello world</title>
     </head>
     <body>
-        <form action="processFormV2" method="get">
+        <form action="processFormV3" method="get">
             <input type="text" name="studentName" placeholder="What's your name ?"/>
             <input type="submit"/>
         </form>

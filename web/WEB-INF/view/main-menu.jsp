@@ -13,6 +13,8 @@
 <body>
 <h2>Spring demo MAIN-MENU</h2>
 
-<a href="showForm">Hello world form</a>
+<a href="hello/showForm">Hello world form</a>
+<br><br>
+<a href="student/showForm">Student form</a>
 </body>
 </html>
