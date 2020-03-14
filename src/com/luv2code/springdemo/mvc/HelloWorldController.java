@@ -22,8 +22,7 @@ public class HelloWorldController {
     @RequestMapping("/processFormV2")
     public String stringToUpper(HttpServletRequest request, Model model){
 
-        String data = "Hey ! " + request.getParameter("studentName").toUpperCase();
-        model.addAttribute("message", data);
+        model.addAttribute("myMessage", "Hey ! " + request.getParameter("studentName").toUpperCase());
 
         return "helloworld";
     }
